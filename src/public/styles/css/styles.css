@@ -1,1 +1,21 @@
-body,html{background-color:#fffffa}.nav-bg{background-color:#ddfffc}.card-header-bg{background-color:#4b14cc}.buttonColor{background-color:#4b14cc}.logo-bg{width:20%;color:#4b14cc}
+body,
+html {
+    background-color: #fffffa
+}
+
+.nav-bg {
+    background-color: #ddfffc
+}
+
+.card-header-bg {
+    background-color: #4b14cc
+}
+
+.buttonColor {
+    background-color: #4b14cc
+}
+
+.logo-bg {
+    width: 20%;
+    color: #4b14cc
+}
