@@ -1,15 +1,32 @@
-$MainColor: rgb(75, 20, 204);
-$MainColorTone1: rgb(80, 22, 217);
-$MainColorTone2: rgb(28, 8, 77);
+$Navbar-Color: rgb(221, 255, 252);
+$MainColor: rgb(255,255,250);
 $SecondaryColor: rgb(204, 191, 20);
+$ThirdColor: rgb(38, 0, 128);
+$FourthColor: rgb(75, 20, 204);
+$ThirdColorTone1: rgb(80, 22, 217);
+$ThirdColorTone2: rgb(28, 8, 77);
+$ThirdColorTone3: rgb(112, 51, 255);
 $SecondaryCompundColor1: rgb(210, 187, 74);
 $SecondaryCompundColor2: rgb(216, 0, 255);
 
-
-nav-bg {
-   background-color: $MainColor; 
+html, body {
+    background-color: $MainColor;
 }
 
-logo-bg {
-    background-color: $SecondaryColor;
+.nav-bg {
+    background-color: $Navbar-Color;
+}
+
+.card-header-bg {
+    background-color: $FourthColor;
+}
+
+.buttonColor {
+    background-color: $FourthColor;
+}
+
+.logo-bg {
+    //background-color: $SecondaryColor;
+    width: 20%;
+    color: $FourthColor;
 }
